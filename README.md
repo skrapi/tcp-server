@@ -2,8 +2,8 @@
 A tcp server written in Rust using the Tokio async runtime.
 
 ## TODO
-- [ ] Go through Tokio examples
-- [ ] Get an echo terver working
+- [x] Go through Tokio examples
+- [x] Get an echo terver working
 - [ ] Get it to build with Docker
 - [ ] Run echo server locally with docker
 - [ ] Get it working with NGINX
