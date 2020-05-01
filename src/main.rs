@@ -37,7 +37,7 @@ async fn main() {
         }
       };
 
-    println!("Server running on localhost:6142");
+    println!("Server running on localhost:7878");
 
     // Start the server and block this async fn until `server` spins down.
     server.await;
