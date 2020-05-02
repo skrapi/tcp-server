@@ -3,7 +3,7 @@ use futures::stream::StreamExt;
 
 #[tokio::main]
 async fn main() {
-    let addr = "127.0.0.1:7878";
+    let addr = "0.0.0.0:7878";
     let mut listener = TcpListener::bind(addr).await.unwrap();
 
     // Here we convert the `TcpListener` to a stream of incoming connections
